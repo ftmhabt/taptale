@@ -1,4 +1,4 @@
-export default function Search() {
+export default function Search({setBooks}) {
   return (
     <div className="p-[2rem] flex justify-between">
       <div>
