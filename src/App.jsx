@@ -10,10 +10,12 @@ function App() {
   const [isSelected,setIsSelected]=useState(false);
 
   return (
-    isSelected?<ReactReader setIsSelected={setIsSelected}/>:
+    isSelected?<div style={{ height: '100vh' }}><ReactReader 
+    url="src\assets\Mieko Kawakami_ Sam Bett and David Boyd - Breasts and Eggs (2020, Europa Editions) - libgen.li.epub"
+  /></div>:
     <div  className='max-w-[1000px] mx-auto my-0 px-[5rem]'>
       <Search setBooks={setBooks} />
-      <BookHolder books={books}/>
+      <BookHolder books={books} setIsSelected={setIsSelected}/>
     </div>
   )
 }
