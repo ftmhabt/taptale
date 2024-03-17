@@ -1,8 +1,9 @@
-# React + Vite
+TapTales is a React-based EPUB reader designed specifically for Surface devices. It offers a smooth and responsive reading experience optimized for touch interaction, addressing limitations of existing readers on Surface touchscreens.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
 
-Currently, two official plugins are available:
+Intuitive Touch Navigation: Effortlessly navigate through your EPUB books with swipe gestures for turning pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Seamless Text Selection: Highlight text with ease using intuitive touch gestures designed for Surface devices.
+
+Clean and Customizable Interface: Enjoy a distraction-free reading experience with a minimalist interface that can be customized for your comfort.
