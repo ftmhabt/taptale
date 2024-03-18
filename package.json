@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "public/electron.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,9 +11,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "electron": "^29.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-reader": "^2.0.9"
+    "react-reader": "^2.0.9",
+    "recursive-readdir": "^2.2.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.64",
